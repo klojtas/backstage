@@ -4,7 +4,7 @@ metadata:
   name: shared
   annotations:
     'backstage.io/kubernetes-id': shared
-    'backstage.io/kubernetes-label-selector': 'app=airflow'
+    'backstage.io/kubernetes-label-selector': 'app=airflow,release=airflow-test'
 spec:
   type: service
   lifecycle: production
